@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-chat",
-  "version": "0.0.1-alpha.1",
+  "version": "0.0.1-alpha-2",
   "description": "A chat engine for ember-cli based on sockets.io",
   "keywords": [
     "ember-addon",
