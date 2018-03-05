@@ -9,7 +9,7 @@ module.exports = {
   //   };
   // }
 
-  afterInstall(options) {
+  beforeInstall() {
     return this.addPackagesToProject({
       packages: [
         { name: 'ember-engines' }
