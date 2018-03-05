@@ -1,0 +1,14 @@
+<div class="ember-cli-chat">
+  <div class="chat-title">{{chatTitle}}</div>
+  <ul>
+    {{#each messages as |message|}}
+      <li>{{message}}</li>
+    {{/each}}
+  </ul>
+  <div class="chat-form">
+    <form {{action 'sendMessage' on='submit'}}>
+      {{textarea placeholder="Type a message" value=message required=true}}
+      <button type="submit" class="send-chat">Send</button>
+    </form>
+  </div>
+</div>

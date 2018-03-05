@@ -1,5 +1,7 @@
 'use strict';
+const EngineAddon = require('ember-engines/lib/engine-addon');
 
-module.exports = {
-  name: 'ember-cli-chat'
-};
+module.exports = EngineAddon.extend({
+  name: 'ember-cli-chat',
+  lazyLoading: false
+});

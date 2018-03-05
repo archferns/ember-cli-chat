@@ -1,0 +1,41 @@
+$border-size: 1px !default;
+$send-button-width: 50px !default;
+
+.ember-cli-chat{
+  position: fixed;
+  bottom: 0;
+  right: 1rem;
+  border: 0 solid #000;
+  border-width: $border-size $border-size 0;
+  border-radius: 3px;
+  min-height: 300px;
+  width: 280px;
+  * {
+    box-sizing: border-box;
+  }
+  .chat-title{
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #000;
+  }
+  .chat-form{
+    min-height: 45px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    textarea{
+      position: absolute;
+      bottom: 0;
+      resize: none;
+      width: calc(100% - #{$send-button-width});
+      height: 100%;
+      border-width: 1px;
+    }
+    .send-chat{
+      position: absolute;
+      right: 0;
+      height: 100%;
+      width: $send-button-width;
+    }
+  }
+}
