@@ -1,6 +1,6 @@
 /* eslint-env node */
 module.exports = {
-  description: ''
+  description: 'ember-cli-chat',
 
   // locals(options) {
   //   // Return custom template variables here.
