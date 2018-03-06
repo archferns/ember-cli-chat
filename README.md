@@ -7,9 +7,9 @@ Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install ember-cli-chat
+ember install ember-engines ember-cli-chat
 ```
-
+**Note: It is essential to have ember-engines installed, since this addon is shipped as an engine.**
 
 Usage
 ------------------------------------------------------------------------------
